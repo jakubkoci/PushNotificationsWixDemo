@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "878486877496",
+    "firebase_url": "https://push-notifications-wix-demo.firebaseio.com",
+    "project_id": "push-notifications-wix-demo",
+    "storage_bucket": "push-notifications-wix-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878486877496:android:7c523483fc17f9697bbdcd",
+        "android_client_info": {
+          "package_name": "com.pushnotificationswixdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878486877496-h5ju76i75io757ijbpmr9765t9h3iqmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878486877496-h5ju76i75io757ijbpmr9765t9h3iqmf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
