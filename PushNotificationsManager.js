@@ -51,13 +51,11 @@ export default class PushNotificationManager extends React.Component {
       },
     );
 
-    if (Platform.OS === 'android') {
-      Notifications.getInitialNotification()
-        .then(notification => {
-          console.log('Initial notification was:', notification || 'N/A');
-        })
-        .catch(err => console.error('getInitialNotifiation() failed', err));
-    }
+    Notifications.getInitialNotification()
+      .then(notification => {
+        console.log('Initial notification was:', notification || 'N/A');
+      })
+      .catch(err => console.error('getInitialNotifiation() failed', err));
   };
 
   render() {
